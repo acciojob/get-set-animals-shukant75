@@ -6,9 +6,10 @@ constructor(species){
 	get species(){
 		return this._species;
 	}
-}
+
 makesound(){
 console.log(`The ${this._species} makes a sound`)	
+}
 }
 class Dog extends Animal {
 	constructor(species){
@@ -27,12 +28,7 @@ class Cat extends Animal {
 		console.log("purr")
 	}
 }
-const mycat=newcat("siamese");
-mycat.makesound();
-mycat.purr();
-const mydog=newdog("Golden Retriever");
-mydog.makesound();
-mydog.bark();
+
 // Do not change the code below this line
 window.Animal = Animal;
 window.Dog = Dog;
