@@ -7,7 +7,7 @@ constructor(species){
 		return this._species;
 	}
 
-makesound(){
+makeSound(){
 console.log(`The ${this._species} makes a sound`)	
 }
 }
